@@ -247,6 +247,9 @@ html {
   margin-bottom: 12px;
   background-color: var(--text-color-black);
 }
+.footer-nav-link:hover{
+  color: var(--text-color-red);
+}
 .footer-nav-link{
   display: flex;
   align-items: center;
@@ -276,4 +279,7 @@ p>a{
 }
 .footer-bottom-link{
   display: inline-block;
+}
+.footer-bottom-img{
+  margin-left: -9px;
 }
